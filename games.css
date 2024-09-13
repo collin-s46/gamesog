@@ -1,0 +1,54 @@
+body {
+    background-color: #3f496b;
+    height: 100%;
+    
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f128; /* or any color */
+    cursor: pointer;
+    text-align: center;
+    color: #b3d0fc;
+    font-weight: 600;
+    border-radius: 3px;
+    
+    
+}
+button:hover {
+    background-color: #f1f1f157;
+}
+button:active {
+    background-color: #ffffffbb;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px; /* Adjust the spacing between buttons */
+    padding-left: 200px;
+    padding-right: 200px; /* Optional: Add padding around the grid */
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #b3d0fc;
+    font-family: "Titillium Web", sans-serif;
+}
+p {
+    position: fixed;
+    bottom: 0;
+    color: #b3d0fc;
+}
